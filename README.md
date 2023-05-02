@@ -8,7 +8,7 @@
 * **Batyrkhan Kenzhaliyev** - Backend Developer (GitHub account: 190103080)
 
 # Project
-* A plan is necessary for effective and complete completion of the work.Therefore, we used the online project management system Trello to plan the tasks of this project.
+* The application consists entirely of children's content which contains educational information about the traditions of kazakh nation.
 
 # Technologies
 * UX/UI: Figma
