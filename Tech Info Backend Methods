@@ -1,0 +1,17 @@
+In backend relize these methods:
+1) Ali Men Aiya methods are: getAllData(), getOneData()
+2) Family Tradition File Upload: uploadFamilyTraditionsImage(MultipartFile file, FamilyTraditions familyTraditions(), getFamilyTraditionsImage(String token)
+3) Family Tradition: saveFamilyTradition(FamilyTraditions familyTraditions(), getFamilyTraditions(), deleteFamilyTradition(Long id)
+4) Islam Tradition File Upload: uploadIslamTraditionsImage(MultipartFile file, IslamTraditions islamTraditions), getIslamTraditionsImage(String token)
+5) Islam Tradition: saveIslamTradition(IslamTraditions islamTraditions(), getIslamTraditions(), deleteIslamTradition(Long id)
+6) Jasyrylgan Zattar: getAllJasyrylganZattar(), getOneJasyrylganZattar(Long id);
+7) Nauryz Tradition File Upload: uploadNauryzTraditionsImage(MultipartFile file, NauryzTraditions nauryzTraditions), getNauryzTraditionsImage(String token)
+8) Nauryz Traditions: saveNauryzTradition(NauryzTraditions nauryzTraditions(), getNauryzTraditions(), deleteNauryTradition(Long id)
+9) Saikestendiru: getAllSaikestendiru(), getOneSaikestendiru(Long id)
+10) SuretteNeKorsetilgenFileUpload: uploadSuretteNeKorsetilgenImage(MultipartFile multipartFile, SuretteNeKorsetilgen suretteNeKorsetilgen), getSuretteNeKorsetilgenImage(String token)
+11) SuretteNeKorsetilgenService: saveSuretteNeKorsetilgen(SuretteNeKorsetilgen suretteNe), getCurrentType(), getAllData(), getOneData(Long id), deleteOneData(Long id)
+12) TraditionsAndCustomersFileUploadService: uploadTraditionsAndCustomersImage(MultipartFile file, TraditionsAndCustomsOfEducation traditionsAndCustomsOfEducation), getTraditionsAndCustomerImage(String token)
+13) TraditionsAndCustomersOfEducationService: deleteTraditionsAndCustomersOfEducation(Long id), getAllTraditionAndCustomersOfEducation(), getOneTraditionAndCustomersOfEducation(Long id), saveTraditionAndCustomersOfEducation(TraditionsAndCustomsOfEducation traditionsAndCustomsOfEducation), getCurrentTraditionsAndCustomers()
+14) TraditionsOfRaisingADowryFileUploadService: uploadTraditionsOfRaisingImage(MultipartFile file, TraditionsOfRaisingADowry traditionsOfRaisingADowry), getTraditionsOfRaisingImage(String token)
+15) TraditionsOfRaisingADowryService: deleteTraditionOfRaisingADowry(Long id), getAllTraditionsOfRaisingADowry(), getOneTraditionOfRaisingADowry(Long id), saveTraditionOfRaisingADowry(TraditionsOfRaisingADowry traditionsOfRaisingADowry), getCurrentTraditionsOfRaising()
+16) UserService: registerUser(UserDto userDto), updatePassword(String oldPassword, String newPassword, String retypePassword), getCurrentUser(), saveUserData(User user), getUsers(), getUser(String email), deleteUser(Long id)
