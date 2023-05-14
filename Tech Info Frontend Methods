@@ -1,0 +1,48 @@
+In mobile frontend realized these methods:
+Requests:
+1) Family Tradition :  
+@GET("/tradition/allFamilyTraditions")
+fun getAllFamilyTraditions(): Call<List<Traditions>>
+2) Islam Tradition: 
+@GET("/tradition/getAllIslamTraditions")
+fun getAllIslamTraditions(): Call<List<Traditions>>
+
+3) Nauryz Tradition: 
+@GET("/tradition/getAllNauryzTraditions")
+fun getAllNauryz(): Call<List<Traditions>>
+
+4) // Tarbie Tradition:
+@GET("/tradition")
+fun getAllCustomsOfEducation(): Call<List<Traditions>>
+
+5) // Raising Tradition:
+@GET("/tradition/allTraditionsOfRaisingADowry")
+fun getAllTraditionsOfRaisingADowry(): Call<List<Traditions>>
+
+6) Methods for get and post user data:
+@GET("/api/getUser/{user_email}")  //
+fun getUser(@Path("user_email") user_email: String): Call<User>
+
+@POST("/api/addUser")  //
+fun addUser(@Body user: User): Call<User>
+
+7)  Game methods:
+// game/getAllAliMenAiya
+@GET("/game/getAllAliMenAiya")
+fun getAllAliMenAiya(): Call<List<gameData>>
+
+// game/getAllSuretteNeKorsetilgen
+@GET("/game/getAllSuretteNeKorsetilgen")
+fun getAllSuretteNeKorsetilgen(): Call<List<SuretteNeKorsetilgenData>>
+
+For users, games and each group of traditions, a custom ViewModel class was created on request. (UserViewModel, FamilyTraditionViewModel, NautyzTraditionViewModel and so on )
+
+User registration methods:
+validateFullName(),validateAge(),validateEmail(),validatePassword(),validateConfirmPassword(),validatePasswordAndConfirmPassword() ,addUser(user)
+User login methods:
+checkUser(),loadUser()	
+
+For audio functions: playSound()
+For profile: ProfileAndSettings.showProfileDialog()
+For settings: openSettings(),closeSettings(),selectedSettings()
+For images: Glide
